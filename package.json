@@ -1,0 +1,23 @@
+{
+  "name": "programming-interview-questions",
+  "version": "1.0.0",
+  "description": "Programming interview coding tasks",
+  "main": "dist/src/index.js",
+  "dependencies": {
+    "@types/node": "^12.12.34",
+    "tslint-config-airbnb": "^5.11.2",
+    "tslint": "^6.1.1",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.9.1",
+    "jest": "^25.0.0",
+    "ts-jest": "^25.3.1"
+  },
+  "scripts": {
+    "compile": "tsc",
+    "test": "jest --env=node --colors --coverage test"
+  },
+  "author": "Antti Ranta",
+  "license": "ISC"
+}
